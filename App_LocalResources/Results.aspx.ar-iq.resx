@@ -117,34 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="btnSubmit.Text" xml:space="preserve">
-    <value>عرض</value>
+  <data name="lbl0.Text" xml:space="preserve">
+    <value>الرجاء تحديد اللغة:</value>
   </data>
-  <data name="lblEarn.Text" xml:space="preserve">
-    <value>عندما تخرجي، وآمل أن كسب</value>
+  <data name="lbl1.Text" xml:space="preserve">
+    <value>آمل أن يكون لديك يوم عظيم عند التخرج على</value>
   </data>
-  <data name="lblGender.Text" xml:space="preserve">
-    <value>أنا</value>
+  <data name="lbl2.Text" xml:space="preserve">
+    <value>أتمنى لكم التوفيق في حياتك المهنية بعد التخرج. آمل أن تكسب</value>
   </data>
-  <data name="lblGrad.Text" xml:space="preserve">
-    <value>أخطط لتخريج على</value>
+  <data name="lbl3.Text" xml:space="preserve">
+    <value>يرجى زيارة لي على</value>
   </data>
-  <data name="lblLanguage.Text" xml:space="preserve">
-    <value>الرجاء اختيار لغتك</value>
+  <data name="lblHello.Text" xml:space="preserve">
+    <value>مرحبا،</value>
   </data>
-  <data name="lblName.Text" xml:space="preserve">
-    <value>اسمي</value>
-  </data>
-  <data name="rbFemale.Text" xml:space="preserve">
-    <value>أنثى</value>
-  </data>
-  <data name="rbMale.Text" xml:space="preserve">
-    <value>رجل</value>
-  </data>
-  <data name="tbName.Text" xml:space="preserve">
-    <value>كتابة اسمك الكامل</value>
-  </data>
-  <data name="tbSalary.Text" xml:space="preserve">
-    <value>إرسال راتبك</value>
+  <data name="lbl_job.Text" xml:space="preserve">
+    <value>كما راتبا في أول وظيفة الخاص بك!</value>
   </data>
 </root>

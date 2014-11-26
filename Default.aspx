@@ -18,12 +18,12 @@
 
     <div id="left_column">
         <div id="lcolumn_text">
-        Please select your language:
+            <asp:Label ID="lblLanguage" runat="server" Text="Please select your language:" meta:resourceKey="lblLanguage"></asp:Label>
         &nbsp;&nbsp;<asp:DropDownList ID="ListBox1" runat="server" AutoPostBack="true">
             <asp:ListItem Value="en-US">English(US)</asp:ListItem>
             <asp:ListItem Value="zh-CN">中國(Chinese)</asp:ListItem>
             <asp:ListItem Value="ar-IQ">العربية(Arabic)</asp:ListItem>
-            <asp:ListItem Value="es-MX">Español(MX)</asp:ListItem>
+            <asp:ListItem Value="es-MX">Español</asp:ListItem>
         </asp:DropDownList>
 
         </div>

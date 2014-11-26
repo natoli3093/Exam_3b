@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" Culture="auto:en-US" UICulture="auto" %>
 
 <!DOCTYPE html>
 
@@ -19,7 +19,7 @@
     <div id="left_column">
         <div id="lcolumn_text">
         Please select your language:
-        &nbsp;&nbsp;<asp:DropDownList ID="language_dropdownlist" runat="server">
+        &nbsp;&nbsp;<asp:DropDownList ID="ListBox1" runat="server" AutoPostBack="true">
             <asp:ListItem>English</asp:ListItem>
             <asp:ListItem>Chinese</asp:ListItem>
             <asp:ListItem>Arabic</asp:ListItem>
@@ -32,10 +32,10 @@
 
     <div id="right_column">
         <div id="rcolumn_text">
-        My name is:&nbsp;&nbsp;<asp:TextBox ID="tbName" runat="server">Enter full name</asp:TextBox>
+        My name is:&nbsp;&nbsp;<asp:TextBox ID="tbName" runat="server" meta:resourceKey="tbName" >Enter full name</asp:TextBox>
         <br />
         <br />
-        I am:&nbsp;&nbsp;<asp:RadioButton ID="rbFemale" runat="server" Text="Female" />&nbsp;&nbsp;<asp:RadioButton ID="rbMale" runat="server" Text="Male" />
+        I am:&nbsp;&nbsp;<asp:RadioButton ID="rbFemale" runat="server" Text="Female"  meta:resourceKey="rbFemale" />&nbsp;&nbsp;<asp:RadioButton ID="rbMale" runat="server" Text="Male" />
         <br />
         <br />
         I plan to graduate on:
@@ -44,10 +44,10 @@
         <asp:Calendar ID="calendar_grad" runat="server"></asp:Calendar>
         <br />
         <br />
-        When I graduate, I hope to earn:&nbsp;&nbsp;<asp:TextBox ID="tbSalary" runat="server">Enter salary</asp:TextBox>
+        When I graduate, I hope to earn:&nbsp;&nbsp;<asp:TextBox ID="tbSalary" runat="server"  meta:resourceKey="tbSalary">Enter salary</asp:TextBox>
         <br />
         <br />
-        <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
+        <asp:Button ID="btnSubmit" runat="server" Text="Submit"  meta:resourceKey="btnSubmit" />
             </div>
     </div>
     

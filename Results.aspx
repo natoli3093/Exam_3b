@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Results.aspx.vb" Inherits="Results" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Results.aspx.vb" Inherits="Results" Culture="auto:en-US" UICulture="auto" %>
 
 <!DOCTYPE html>
 
@@ -21,7 +21,7 @@
         <div id="left_column">
             <div id="lcolumn_text">
         Please select your language:
-        &nbsp;&nbsp;<asp:DropDownList ID="language_dropdownlist" runat="server">
+        &nbsp;&nbsp;<asp:DropDownList ID="ListBox1" runat="server">
             <asp:ListItem>English</asp:ListItem>
             <asp:ListItem>Chinese</asp:ListItem>
             <asp:ListItem>Arabic</asp:ListItem>

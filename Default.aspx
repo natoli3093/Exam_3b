@@ -20,10 +20,10 @@
         <div id="lcolumn_text">
         Please select your language:
         &nbsp;&nbsp;<asp:DropDownList ID="ListBox1" runat="server" AutoPostBack="true">
-            <asp:ListItem>English</asp:ListItem>
-            <asp:ListItem>Chinese</asp:ListItem>
-            <asp:ListItem>Arabic</asp:ListItem>
-            <asp:ListItem>Spanish</asp:ListItem>
+            <asp:ListItem Value="en-US">English</asp:ListItem>
+            <asp:ListItem Value="zh-CN">Chinese</asp:ListItem>
+            <asp:ListItem Value="ar-IQ">Arabic</asp:ListItem>
+            <asp:ListItem Value="es-MX">Spanish</asp:ListItem>
         </asp:DropDownList>
 
         </div>
@@ -35,7 +35,7 @@
         My name is:&nbsp;&nbsp;<asp:TextBox ID="tbName" runat="server" meta:resourceKey="tbName" >Enter full name</asp:TextBox>
         <br />
         <br />
-        I am:&nbsp;&nbsp;<asp:RadioButton ID="rbFemale" runat="server" Text="Female"  meta:resourceKey="rbFemale" />&nbsp;&nbsp;<asp:RadioButton ID="rbMale" runat="server" Text="Male" />
+        I am:&nbsp;&nbsp;<asp:RadioButton ID="rbFemale" runat="server" Text="Female"  meta:resourceKey="rbFemale" />&nbsp;&nbsp;<asp:RadioButton ID="rbMale" runat="server" Text="Male" meta:resourceKey="rbMale" />
         <br />
         <br />
         I plan to graduate on:

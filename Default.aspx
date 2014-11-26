@@ -20,10 +20,10 @@
         <div id="lcolumn_text">
         Please select your language:
         &nbsp;&nbsp;<asp:DropDownList ID="ListBox1" runat="server" AutoPostBack="true">
-            <asp:ListItem Value="en-US">English</asp:ListItem>
-            <asp:ListItem Value="zh-CN">Chinese</asp:ListItem>
-            <asp:ListItem Value="ar-IQ">Arabic</asp:ListItem>
-            <asp:ListItem Value="es-MX">Spanish</asp:ListItem>
+            <asp:ListItem Value="en-US">English(US)</asp:ListItem>
+            <asp:ListItem Value="zh-CN">中國(Chinese)</asp:ListItem>
+            <asp:ListItem Value="ar-IQ">العربية(Arabic)</asp:ListItem>
+            <asp:ListItem Value="es-MX">Español(MX)</asp:ListItem>
         </asp:DropDownList>
 
         </div>
@@ -32,19 +32,19 @@
 
     <div id="right_column">
         <div id="rcolumn_text">
-        My name is:&nbsp;&nbsp;<asp:TextBox ID="tbName" runat="server" meta:resourceKey="tbName" >Enter full name</asp:TextBox>
+        <asp:Label ID="lblName" runat="server" Text="My name is:" meta:resourceKey="lblName"></asp:Label>&nbsp;&nbsp;<asp:TextBox ID="tbName" runat="server" meta:resourceKey="tbName" Text="Enter full name"></asp:TextBox>
         <br />
         <br />
-        I am:&nbsp;&nbsp;<asp:RadioButton ID="rbFemale" runat="server" Text="Female"  meta:resourceKey="rbFemale" />&nbsp;&nbsp;<asp:RadioButton ID="rbMale" runat="server" Text="Male" meta:resourceKey="rbMale" />
+      <asp:Label ID="lblGender" runat="server" Text="I am:" meta:resourceKey="lblGender"></asp:Label>&nbsp;&nbsp;<asp:RadioButton ID="rbFemale" runat="server" Text="Female"  meta:resourceKey="rbFemale" />&nbsp;&nbsp;<asp:RadioButton ID="rbMale" runat="server" Text="Male" meta:resourceKey="rbMale" />
         <br />
         <br />
-        I plan to graduate on:
+            <asp:Label ID="lblGrad" runat="server" Text="I plan to graduate on:" meta:resourceKey="lblGrad"></asp:Label>
         <br />
         <br />
         <asp:Calendar ID="calendar_grad" runat="server"></asp:Calendar>
         <br />
         <br />
-        When I graduate, I hope to earn:&nbsp;&nbsp;<asp:TextBox ID="tbSalary" runat="server"  meta:resourceKey="tbSalary">Enter salary</asp:TextBox>
+        <asp:Label ID="lblEarn" runat="server" Text="When I graduate, I hope to earn:" meta:resourceKey="lblEarn"></asp:Label>&nbsp;&nbsp;<asp:TextBox ID="tbSalary" runat="server"  meta:resourceKey="tbSalary" Text="Enter salary"></asp:TextBox>
         <br />
         <br />
         <asp:Button ID="btnSubmit" runat="server" Text="Submit"  meta:resourceKey="btnSubmit" />

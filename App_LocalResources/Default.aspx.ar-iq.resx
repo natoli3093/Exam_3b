@@ -120,6 +120,18 @@
   <data name="btnSubmit.Text" xml:space="preserve">
     <value>عرض</value>
   </data>
+  <data name="lblEarn.Text" xml:space="preserve">
+    <value>عندما تخرجي، وآمل أن كسب</value>
+  </data>
+  <data name="lblGender.Text" xml:space="preserve">
+    <value>أنا</value>
+  </data>
+  <data name="lblGrad.Text" xml:space="preserve">
+    <value>أخطط لتخريج على</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>اسمي</value>
+  </data>
   <data name="rbFemale.Text" xml:space="preserve">
     <value>أنثى</value>
   </data>

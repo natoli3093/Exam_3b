@@ -120,6 +120,18 @@
   <data name="btnSubmit.Text" xml:space="preserve">
     <value>遞交</value>
   </data>
+  <data name="lblEarn.Text" xml:space="preserve">
+    <value>當我畢業了，我希望賺</value>
+  </data>
+  <data name="lblGender.Text" xml:space="preserve">
+    <value>我是</value>
+  </data>
+  <data name="lblGrad.Text" xml:space="preserve">
+    <value>我打算在畢業</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>我的名字是</value>
+  </data>
   <data name="rbFemale.Text" xml:space="preserve">
     <value>女</value>
   </data>

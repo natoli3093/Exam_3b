@@ -120,6 +120,18 @@
   <data name="btnSubmit.Text" xml:space="preserve">
     <value>Submit</value>
   </data>
+  <data name="lblEarn.Text" xml:space="preserve">
+    <value>When I graduate, I hope to earn</value>
+  </data>
+  <data name="lblGender.Text" xml:space="preserve">
+    <value>I am:</value>
+  </data>
+  <data name="lblGrad.Text" xml:space="preserve">
+    <value>I plan to graduate on:</value>
+  </data>
+  <data name="lblName.Text" xml:space="preserve">
+    <value>My name is:</value>
+  </data>
   <data name="rbFemale.Text" xml:space="preserve">
     <value>Female</value>
   </data>

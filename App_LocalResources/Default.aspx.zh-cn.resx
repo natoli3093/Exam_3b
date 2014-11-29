@@ -120,6 +120,9 @@
   <data name="btnSubmit.Text" xml:space="preserve">
     <value>遞交</value>
   </data>
+  <data name="imgDefault.ImageUrl" xml:space="preserve">
+    <value>~/Images/china.gif</value>
+  </data>
   <data name="lblEarn.Text" xml:space="preserve">
     <value>當我畢業了，我希望賺</value>
   </data>
@@ -134,6 +137,12 @@
   </data>
   <data name="lblName.Text" xml:space="preserve">
     <value>我的名字是</value>
+  </data>
+  <data name="liFemale.Text" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="liMale.Text" xml:space="preserve">
+    <value>男</value>
   </data>
   <data name="rbFemale.Text" xml:space="preserve">
     <value>女</value>

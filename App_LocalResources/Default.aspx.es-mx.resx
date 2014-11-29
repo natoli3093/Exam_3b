@@ -120,6 +120,9 @@
   <data name="btnSubmit.Text" xml:space="preserve">
     <value>presentar</value>
   </data>
+  <data name="imgDefault.ImageUrl" xml:space="preserve">
+    <value>~/images/mexico.gif</value>
+  </data>
   <data name="lblEarn.Text" xml:space="preserve">
     <value>Cuando me gradúe, espero poder ganar</value>
   </data>
@@ -134,6 +137,12 @@
   </data>
   <data name="lblName.Text" xml:space="preserve">
     <value>Mi nombre es:</value>
+  </data>
+  <data name="liFemale.Text" xml:space="preserve">
+    <value>hembra</value>
+  </data>
+  <data name="liMale.Text" xml:space="preserve">
+    <value>hombre</value>
   </data>
   <data name="rbFemale.Text" xml:space="preserve">
     <value>hembra</value>

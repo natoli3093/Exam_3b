@@ -16,4 +16,12 @@ Partial Class _Default
         End If
         MyBase.InitializeCulture()
     End Sub
+
+    Protected Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
+
+        Response.Redirect("./Results.aspx")
+
+
+    End Sub
 End Class
+

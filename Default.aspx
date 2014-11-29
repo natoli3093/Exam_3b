@@ -25,6 +25,9 @@
             <asp:ListItem Value="ar-IQ">العربية(Arabic)</asp:ListItem>
             <asp:ListItem Value="es-MX">Español</asp:ListItem>
         </asp:DropDownList>
+            <br />
+            <br />
+            <asp:Image ID="Image1" runat="server" meta:resourceKey="imgDefault" />
 
         </div>
 
@@ -35,8 +38,10 @@
         <asp:Label ID="lblName" runat="server" Text="My name is:" meta:resourceKey="lblName"></asp:Label>&nbsp;&nbsp;<asp:TextBox ID="tbName" runat="server" meta:resourceKey="tbName" Text="Enter full name"></asp:TextBox>
         <br />
         <br />
-      <asp:Label ID="lblGender" runat="server" Text="I am:" meta:resourceKey="lblGender"></asp:Label>&nbsp;&nbsp;<asp:RadioButton ID="rbFemale" runat="server" Text="Female"  meta:resourceKey="rbFemale" />&nbsp;&nbsp;<asp:RadioButton ID="rbMale" runat="server" Text="Male" meta:resourceKey="rbMale" />
-        <br />
+      <asp:Label ID="lblGender" runat="server" Text="I am:" meta:resourceKey="lblGender"></asp:Label>&nbsp;&nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" Height="16px" RepeatDirection="Horizontal" Width="206px">
+                <asp:ListItem Value="gender" Text="Female" meta:resourceKey="liFemale"></asp:ListItem>
+                <asp:ListItem Value="gender" Text="Male" meta:resourceKey="liMale"></asp:ListItem>
+            </asp:RadioButtonList>
         <br />
             <asp:Label ID="lblGrad" runat="server" Text="I plan to graduate on:" meta:resourceKey="lblGrad"></asp:Label>
         <br />
@@ -50,7 +55,6 @@
         <asp:Button ID="btnSubmit" runat="server" Text="Submit"  meta:resourceKey="btnSubmit" />
             </div>
     </div>
-    
     </div>
     </form>
 </body>

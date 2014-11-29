@@ -15,4 +15,13 @@ Partial Class Results
         End If
         MyBase.InitializeCulture()
     End Sub
+
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+        lbl_name.Text = Session("textboxvalue")
+        lbl_salary.Text = Session("textbox2value")
+        lbl_date.Text = Session("calendarvalue")
+        lbl_Ms.Text = Session("radioValue")
+
+
+    End Sub
 End Class

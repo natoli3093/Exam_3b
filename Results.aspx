@@ -28,6 +28,9 @@
             <asp:ListItem Value="ar-IQ">العربية(Arabic)</asp:ListItem>
             <asp:ListItem Value="es-MX">Español</asp:ListItem>
         </asp:DropDownList>
+                <br />
+                <br />
+                <asp:Image ID="imgDefault2" meta:resourceKey="imgDefault2" runat="server" ImageAlign="Middle" />
        </div>
     </div>
         <div id="right_column">

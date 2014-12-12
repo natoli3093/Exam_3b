@@ -19,32 +19,56 @@ Partial Class _Default
 
     Protected Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
         'Response.Redirect("Results.aspx?" + RadioButtonList1.SelectedValue + tbName.Text + tbSalary.Text)
-        Dim choice As String
-        If RadioButtonList1.Items.FindByText("Female").Selected = True Then
-            choice = "Ms."
-            If RadioButtonList1.Items.FindByText("Male").Selected = True Then
+        Dim choice As String = ""
+
+            If RadioButtonList1.SelectedIndex = 0 Then
+                choice = "Ms."
+            End If
+            If RadioButtonList1.SelectedIndex = 1 Then
                 choice = "Mr."
 
             End If
-        End If
-        choice = RadioButtonList1.SelectedValue
-
-        Dim choice2 As String
-        choice2 = calendar_grad.SelectedDate.ToShortDateString()
-
-        Dim money As Decimal
-        money = String.Format("{0:n}", tbSalary.Text)
-
-
-        Session("textboxValue") = tbName.Text
-        Session("textbox2value") = String.Format("{0:n}", money)
-        Session("calendarvalue") = choice2
-        Session("radiovalue") = choice
 
 
 
 
-        Response.Redirect("Results.aspx")
+            'ElseIf RadioButtonList1.Items("Female").Selected = True Then
+            'choice = "Ms."
+            'ElseIf RadioButtonList1.Items("Male").Selected = True Then
+            'choice = "Mr."
+
+            'ElseIf RadioButtonList1.Items("女").Selected = True Then
+            'choice = "女士."
+            'ElseIf RadioButtonList1.Items("男").Selected = True Then
+            'choice = "先生."
+            'ElseIf RadioButtonList1.Items("hembra").Selected = True Then
+            'choice = "Sra."
+            'ElseIf RadioButtonList1.Items("hombre").Selected = True Then
+            'choice = "Sr."
+            'ElseIf RadioButtonList1.Items("أنثى").Selected = True Then
+            'choice = "السيدة."
+            'ElseIf RadioButtonList1.Items("رجل").Selected = True Then
+            'choice = "السيد."
+            'End If
+
+
+
+            Dim choice2 As String
+            choice2 = calendar_grad.SelectedDate.ToShortDateString()
+
+            Dim money As Decimal
+            money = String.Format("{0:n}", tbSalary.Text)
+
+
+            Session("textboxValue") = tbName.Text
+            Session("textbox2value") = String.Format("{0:n}", money)
+            Session("calendarvalue") = choice2
+            Session("radiovalue") = choice
+
+
+
+
+            Response.Redirect("Results.aspx")
 
 
 

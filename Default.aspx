@@ -42,8 +42,8 @@
         <br />
         <br />
       <asp:Label ID="lblGender" runat="server" Text="I am:" meta:resourceKey="lblGender"></asp:Label>&nbsp;&nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" Height="16px" RepeatDirection="Horizontal" Width="206px">
-                <asp:ListItem Value="Ms." Text="Female" meta:resourceKey="liFemale"></asp:ListItem>
-                <asp:ListItem Value="Mr." Text="Male" meta:resourceKey="liMale"></asp:ListItem>
+                <asp:ListItem Value="0" Text="Female" meta:resourceKey="liFemale"></asp:ListItem>
+                <asp:ListItem Value="1" Text="Male" meta:resourceKey="liMale"></asp:ListItem>
             </asp:RadioButtonList>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="RadioButtonList1" ErrorMessage="You must select a Gender!!" Font-Italic="True" ForeColor="Red" meta:resourceKey="validate2"></asp:RequiredFieldValidator>
         <br />

@@ -30,14 +30,14 @@ Partial Class _Default
         choice = RadioButtonList1.SelectedValue
 
         Dim choice2 As String
-        choice2 = calendar_grad.SelectedDate.ToLongDateString()
+        choice2 = calendar_grad.SelectedDate.ToShortDateString()
 
         Dim money As Decimal
-        money = String.Format("{0:c}", tbSalary.Text)
+        money = String.Format("{0:n}", tbSalary.Text)
 
 
         Session("textboxValue") = tbName.Text
-        Session("textbox2value") = String.Format("{0:c}", money)
+        Session("textbox2value") = String.Format("{0:n}", money)
         Session("calendarvalue") = choice2
         Session("radiovalue") = choice
 
@@ -55,10 +55,8 @@ Partial Class _Default
 
 
     End Sub
-
-    Protected Sub tbName_TextChanged(sender As Object, e As EventArgs) Handles tbName.TextChanged
-        If tbName.Text = "Enter full name" Then tbName = Nothing
-
+    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+        tbName.Focus()
 
     End Sub
 End Class

@@ -138,6 +138,18 @@
   <data name="lblName.Text" xml:space="preserve">
     <value>My name is:</value>
   </data>
+  <data name="lblsoftware.Text" xml:space="preserve">
+    <value>Software Design and Development</value>
+  </data>
+  <data name="lblwelcome.Text" xml:space="preserve">
+    <value>Welcome to </value>
+  </data>
+  <data name="lbl_software.Text" xml:space="preserve">
+    <value>Software Design and Development</value>
+  </data>
+  <data name="lbl_welcome.Text" xml:space="preserve">
+    <value>Welcome to</value>
+  </data>
   <data name="liFemale.Text" xml:space="preserve">
     <value>Female</value>
   </data>
@@ -150,12 +162,6 @@
   <data name="rbMale.Text" xml:space="preserve">
     <value>Male</value>
   </data>
-  <data name="tbName.Text" xml:space="preserve">
-    <value>Enter full name</value>
-  </data>
-  <data name="tbSalary.Text" xml:space="preserve">
-    <value>Enter salary</value>
-  </data>
   <data name="validate1.Text" xml:space="preserve">
     <value>You must enter a Name!!</value>
   </data>
@@ -164,5 +170,8 @@
   </data>
   <data name="validate3.Text" xml:space="preserve">
     <value>You must enter a Salary!!</value>
+  </data>
+  <data name="lblcurrency.Text" xml:space="preserve">
+    <value>$</value>
   </data>
 </root>

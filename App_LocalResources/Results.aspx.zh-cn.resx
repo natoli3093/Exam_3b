@@ -132,6 +132,9 @@
   <data name="lbl3.Text" xml:space="preserve">
     <value>請訪問我的</value>
   </data>
+  <data name="lblcurrency.Text" xml:space="preserve">
+    <value>¥</value>
+  </data>
   <data name="lblHello.Text" xml:space="preserve">
     <value>你好，</value>
   </data>

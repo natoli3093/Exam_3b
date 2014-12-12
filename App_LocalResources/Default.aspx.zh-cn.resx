@@ -138,6 +138,18 @@
   <data name="lblName.Text" xml:space="preserve">
     <value>我的名字是</value>
   </data>
+  <data name="lblsoftware.Text" xml:space="preserve">
+    <value>軟件設計與開發</value>
+  </data>
+  <data name="lblwelcome.Text" xml:space="preserve">
+    <value>歡迎光臨</value>
+  </data>
+  <data name="lbl_software.Text" xml:space="preserve">
+    <value>軟件設計與開發</value>
+  </data>
+  <data name="lbl_welcome.Text" xml:space="preserve">
+    <value>歡迎光臨</value>
+  </data>
   <data name="liFemale.Text" xml:space="preserve">
     <value>女</value>
   </data>
@@ -149,12 +161,6 @@
   </data>
   <data name="rbMale.Text" xml:space="preserve">
     <value>男</value>
-  </data>
-  <data name="tbName.Text" xml:space="preserve">
-    <value>輸入您的全名</value>
-  </data>
-  <data name="tbSalary.Text" xml:space="preserve">
-    <value>輸入你的薪水</value>
   </data>
   <data name="validate1.Text" xml:space="preserve">
     <value>你必須鍵入一個名稱</value>

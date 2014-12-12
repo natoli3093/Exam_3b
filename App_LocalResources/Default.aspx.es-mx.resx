@@ -138,6 +138,18 @@
   <data name="lblName.Text" xml:space="preserve">
     <value>Mi nombre es:</value>
   </data>
+  <data name="lblsoftware.Text" xml:space="preserve">
+    <value>Diseño y Desarrollo de Software</value>
+  </data>
+  <data name="lblwelcome.Text" xml:space="preserve">
+    <value>Bienvenido a</value>
+  </data>
+  <data name="lbl_software" xml:space="preserve">
+    <value>Diseño y Desarrollo de Software</value>
+  </data>
+  <data name="lbl_welcome.Text" xml:space="preserve">
+    <value>Bienvenido a</value>
+  </data>
   <data name="liFemale.Text" xml:space="preserve">
     <value>hembra</value>
   </data>
@@ -149,12 +161,6 @@
   </data>
   <data name="rbMale.Text" xml:space="preserve">
     <value>hombre</value>
-  </data>
-  <data name="tbName.Text" xml:space="preserve">
-    <value>escriba su nombre completo</value>
-  </data>
-  <data name="tbSalary.Text" xml:space="preserve">
-    <value>escriba su salario</value>
   </data>
   <data name="validate1.Text" xml:space="preserve">
     <value>¡Debe introducir un nombre!</value>

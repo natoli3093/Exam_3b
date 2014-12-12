@@ -40,7 +40,7 @@
             <br />
             <p><asp:Label ID="lbl1" runat="server" Text="I hope you have a great day when you graduate on" meta:resourceKey="lbl1"></asp:Label>&nbsp;<asp:Label ID="lbl_date" runat="server" Text="Date"></asp:Label>!</p>
             <br />
-            <p><asp:Label ID="lbl2" runat="server" Text="I wish you well in your career after graduation. I hope you earn" meta:resourceKey="lbl2"></asp:Label>&nbsp;&nbsp; <asp:Label ID="lbl_salary" runat="server" Text="Salary" meta:resourceKey="lbl_salary"></asp:Label> &nbsp; <asp:Label ID="lbl_job" runat="server" Text="as a salary in your first job!" meta:resourceKey="lbl_job"></asp:Label></p>
+            <p><asp:Label ID="lbl2" runat="server" Text="I wish you well in your career after graduation. I hope you earn" meta:resourceKey="lbl2"></asp:Label>&nbsp;&nbsp;<asp:Label ID="lblcurrency" runat="server" Text="currencysymbol" meta:resourceKey="lblcurrency"></asp:Label> <asp:Label ID="lbl_salary" runat="server" Text="Salary" meta:resourceKey="lbl_salary"></asp:Label> &nbsp; <asp:Label ID="lbl_job" runat="server" Text="as a salary in your first job!" meta:resourceKey="lbl_job"></asp:Label></p>
             <br />
             <br />
             <asp:Label ID="lbl3" runat="server" Text="Please visit me on" meta:resourceKey="lbl3"></asp:Label>&nbsp;<asp:HyperLink ID="link_github" runat="server" NavigateUrl="~/https://github.com/natoli3093">Github</asp:HyperLink>!

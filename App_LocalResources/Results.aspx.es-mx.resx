@@ -132,6 +132,9 @@
   <data name="lbl3.Text" xml:space="preserve">
     <value>¡Por favor, visite conmigo en</value>
   </data>
+  <data name="lblcurrency.Text" xml:space="preserve">
+    <value>$</value>
+  </data>
   <data name="lblHello.Text" xml:space="preserve">
     <value>Hola,</value>
   </data>

@@ -138,6 +138,18 @@
   <data name="lblName.Text" xml:space="preserve">
     <value>اسمي</value>
   </data>
+  <data name="lblsoftware.Text" xml:space="preserve">
+    <value>تصميم وتطوير البرمجيات</value>
+  </data>
+  <data name="lblwelcome.Text" xml:space="preserve">
+    <value>مرحبا بكم في</value>
+  </data>
+  <data name="lbl_softare.Text" xml:space="preserve">
+    <value>تصميم وتطوير البرمجيات</value>
+  </data>
+  <data name="lbl_welcome.Text" xml:space="preserve">
+    <value>مرحبا بكم في</value>
+  </data>
   <data name="liFemale.Text" xml:space="preserve">
     <value>أنثى</value>
   </data>
@@ -150,19 +162,13 @@
   <data name="rbMale.Text" xml:space="preserve">
     <value>رجل</value>
   </data>
-  <data name="tbName.Text" xml:space="preserve">
-    <value>كتابة اسمك الكامل</value>
-  </data>
-  <data name="tbSalary.Text" xml:space="preserve">
-    <value>إرسال راتبك</value>
-  </data>
   <data name="validate1.text" xml:space="preserve">
     <value>يجب أن تكتب اسم</value>
   </data>
   <data name="validate2.Text" xml:space="preserve">
     <value>يجب تحديد نوع الجنس</value>
   </data>
-  <data name="validate3.text" xml:space="preserve">
+  <data name="validate3.Text" xml:space="preserve">
     <value>يجب إدخال الراتب</value>
   </data>
 </root>

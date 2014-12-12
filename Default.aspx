@@ -12,8 +12,10 @@
     <form id="form1" runat="server">
     <div id ="body">
         <div id="header">
-        <h1>Welcome to MSCI:3300</h1>
-        <h2>Software Design and Development</h2>
+        <h1>
+            <asp:Label ID="lbl_welcome" runat="server" Text="Welcome to"></asp:Label>&nbsp;MSCI:3300</h1>
+        <h2>
+            <asp:Label ID="lbl_software" runat="server" Text="Software Design and Development"></asp:Label></h2>
         </div>
 
     <div id="left_column">
@@ -36,14 +38,14 @@
     <div id="right_column">
         <div id="rcolumn_text">
         <asp:Label ID="lblName" runat="server" Text="My name is:" meta:resourceKey="lblName"></asp:Label>&nbsp;&nbsp;<asp:TextBox ID="tbName" runat="server" meta:resourceKey="tbName" Text="Enter full name"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="tbName" ErrorMessage="You must enter a Name!!" Font-Italic="True" ForeColor="Red"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="tbName" ErrorMessage="You must enter a Name!!" Font-Italic="True" ForeColor="Red" meta:resourceKey="validate1"></asp:RequiredFieldValidator>
         <br />
         <br />
       <asp:Label ID="lblGender" runat="server" Text="I am:" meta:resourceKey="lblGender"></asp:Label>&nbsp;&nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server" Height="16px" RepeatDirection="Horizontal" Width="206px">
                 <asp:ListItem Value="Ms." Text="Female" meta:resourceKey="liFemale"></asp:ListItem>
                 <asp:ListItem Value="Mr." Text="Male" meta:resourceKey="liMale"></asp:ListItem>
             </asp:RadioButtonList>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="RadioButtonList1" ErrorMessage="You must select a Gender!!" Font-Italic="True" ForeColor="Red"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="RadioButtonList1" ErrorMessage="You must select a Gender!!" Font-Italic="True" ForeColor="Red" meta:resourceKey="validate2"></asp:RequiredFieldValidator>
         <br />
             <asp:Label ID="lblGrad" runat="server" Text="I plan to graduate on:" meta:resourceKey="lblGrad"></asp:Label>
         <br />
@@ -52,7 +54,7 @@
         <br />
         <br />
         <asp:Label ID="lblEarn" runat="server" Text="When I graduate, I hope to earn:" meta:resourceKey="lblEarn"></asp:Label>&nbsp;&nbsp;<asp:TextBox ID="tbSalary" runat="server"  meta:resourceKey="tbSalary" Text="Enter salary"></asp:TextBox>
-            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="tbSalary" ErrorMessage="You must enter a Salary!!" Font-Italic="True" ForeColor="Red"></asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="tbSalary" ErrorMessage="You must enter a Salary!!" Font-Italic="True" ForeColor="Red" meta:resourceKey="validate3"></asp:RequiredFieldValidator>
         <br />
         <br />
         <asp:Button ID="btnSubmit" runat="server" Text="Submit"  meta:resourceKey="btnSubmit"/>

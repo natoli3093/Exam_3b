@@ -37,7 +37,7 @@ Partial Class _Default
 
 
         Session("textboxValue") = tbName.Text
-        Session("textbox2value") = money
+        Session("textbox2value") = String.Format("{0:c}", money)
         Session("calendarvalue") = choice2
         Session("radiovalue") = choice
 
@@ -52,6 +52,12 @@ Partial Class _Default
 
 
 
+
+
+    End Sub
+
+    Protected Sub tbName_TextChanged(sender As Object, e As EventArgs) Handles tbName.TextChanged
+        If tbName.Text = "Enter full name" Then tbName = Nothing
 
 
     End Sub

@@ -156,4 +156,13 @@
   <data name="tbSalary.Text" xml:space="preserve">
     <value>Enter salary</value>
   </data>
+  <data name="validate1.Text" xml:space="preserve">
+    <value>You must enter a Name!!</value>
+  </data>
+  <data name="validate2.Text" xml:space="preserve">
+    <value>You must select a gender!!</value>
+  </data>
+  <data name="validate3.Text" xml:space="preserve">
+    <value>You must enter a Salary!!</value>
+  </data>
 </root>

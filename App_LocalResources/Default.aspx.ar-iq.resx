@@ -156,4 +156,13 @@
   <data name="tbSalary.Text" xml:space="preserve">
     <value>إرسال راتبك</value>
   </data>
+  <data name="validate1.text" xml:space="preserve">
+    <value>يجب أن تكتب اسم</value>
+  </data>
+  <data name="validate2.Text" xml:space="preserve">
+    <value>يجب تحديد نوع الجنس</value>
+  </data>
+  <data name="validate3.text" xml:space="preserve">
+    <value>يجب إدخال الراتب</value>
+  </data>
 </root>

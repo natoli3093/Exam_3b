@@ -35,7 +35,7 @@
     </div>
         <div id="right_column">
             <div id="rcolumn_text">
-            <asp:Label ID="lblHello" runat="server" Text="Hello," meta:resourceKey="lblHello"></asp:Label>&nbsp;<asp:Label ID="lbl_Ms" runat="server" Text="Ms. or Mr." meta:resourceKey="lbl_Ms"></asp:Label>&nbsp;<asp:Label ID="lbl_name" runat="server" Text="Name" meta:resourceKey="lbl_name"></asp:Label>
+            <asp:Label ID="lblHello" runat="server" Text="Hello," meta:resourceKey="lblHello"></asp:Label>&nbsp;<asp:Label ID="lbl_Ms" runat="server" Text="{Mr. or Ms.}" meta:resourceKey="lbl_Ms"></asp:Label>&nbsp;<asp:Label ID="lbl_name" runat="server" Text="Name" meta:resourceKey="lbl_name"></asp:Label>
             <br />
             <br />
             <p><asp:Label ID="lbl1" runat="server" Text="I hope you have a great day when you graduate on" meta:resourceKey="lbl1"></asp:Label>&nbsp;<asp:Label ID="lbl_date" runat="server" Text="Date"></asp:Label>!</p>
@@ -50,7 +50,6 @@
         </div>
     
     </div>
-        <asp:Localize ID="Localize2" runat="server"></asp:Localize>
     </form>
 </body>
 </html>

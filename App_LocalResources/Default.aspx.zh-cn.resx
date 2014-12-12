@@ -156,4 +156,13 @@
   <data name="tbSalary.Text" xml:space="preserve">
     <value>輸入你的薪水</value>
   </data>
+  <data name="validate1.Text" xml:space="preserve">
+    <value>你必須鍵入一個名稱</value>
+  </data>
+  <data name="validate2.Text" xml:space="preserve">
+    <value>你必須選擇性別</value>
+  </data>
+  <data name="validate3.Text" xml:space="preserve">
+    <value>您必須輸入工資</value>
+  </data>
 </root>
